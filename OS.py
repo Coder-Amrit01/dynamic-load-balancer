@@ -89,4 +89,4 @@ tk.Button(root, text="Balance Load", command=balance_load).pack(pady=5)
 output = tk.Text(root, height=15, width=50)
 output.pack()
 
-root.mainloop()
+root.mainloop()#update7
