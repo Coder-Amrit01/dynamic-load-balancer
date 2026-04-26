@@ -6,7 +6,7 @@ cpu_load = {}
 # ------------------ TASK GENERATION ------------------
 def generate_tasks():
     global cpu_load
-
+#update1
     try:
         num_cpus = int(cpu_entry.get())
         num_tasks = int(task_entry.get())
