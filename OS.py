@@ -59,6 +59,7 @@ def balance_load():
     display("After Balancing", cpu_load)
 
 # ------------------ DISPLAY FUNCTION ------------------
+#update4
 def display(title, data):
     output.delete("1.0", tk.END)
     output.insert(tk.END, title + "\n\n")
