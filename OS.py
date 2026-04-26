@@ -1,12 +1,13 @@
 import tkinter as tk
 import random
-
+#update1
 cpu_load = {}
 
 # ------------------ TASK GENERATION ------------------
+#update2
 def generate_tasks():
     global cpu_load
-#update1
+
     try:
         num_cpus = int(cpu_entry.get())
         num_tasks = int(task_entry.get())
