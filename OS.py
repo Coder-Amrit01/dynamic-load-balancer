@@ -26,6 +26,7 @@ def generate_tasks():
     display("Before Balancing", cpu_load)
 
 # ------------------ LOAD FUNCTION ------------------
+#update3
 def get_load(tasks):
     return sum(tasks)
 
