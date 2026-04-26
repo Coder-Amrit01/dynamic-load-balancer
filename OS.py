@@ -16,7 +16,7 @@ def generate_tasks():
         return
 
     cpu_load = {i: [] for i in range(num_cpus)}
-
+#update6
     tasks = [random.randint(1, 10) for _ in range(num_tasks)]
 
     for task in tasks:
